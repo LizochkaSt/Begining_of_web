@@ -1,0 +1,253 @@
+.container{
+    margin: 0 56px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 142px;
+}
+.header_photo{
+    width: 608px;
+    height: 650px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.header_items{
+    display: flex;
+    margin-bottom: 105px;
+    margin-left: 273px;
+    margin-top: 45px;
+    margin-right: 89px;
+}
+.header_item
+{
+    padding: 5px 0;
+}
+.header_item:not(:last-child){
+    margin-right: 32px;
+}
+.buttom{
+    background: #156963;
+    width: 111px;
+    border: 1px solid #156963;
+
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 8px 0;
+    font-family: 'Nunito', sans-serif;
+}
+.buttom:hover{
+    background-color: #FFFFFF;
+    color: #156963;
+}
+h1{
+    max-width: 523px;
+    font-weight: 500;
+    font-size: 68px;
+    color: #156963;
+    margin: 0px 0px 24px 77px;
+    
+}
+.header_description{
+    max-width: 493px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #2C1500;
+    margin: 0px 0px 110px 77px;
+}
+
+.benefits{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.benefits_item{
+    border: 1px solid #E0E0E0;
+}
+.benefit_description{
+    font-weight: 400;
+    font-size: 10px;
+    color: #2C1500;
+    margin: 0px 16px 21px 16px;
+    max-width: 236px;
+}
+.benefit_name{
+    margin: 22px 51px 16px 16px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #156963;
+    max-width: 137px;
+}
+.benefit_sign{
+    margin: 22px 18.91px 16px 18.91px;
+}
+.top_part_benefits{
+    display: flex;
+    align-items: center;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 16px;
+    text-align:center;
+}
+.featured_heading
+{
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 31px;
+}
+.featured_plants
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.featured_item_name{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 8px;
+}
+.featured_item_cost{
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+}
+.featured_item_photo{
+    margin-bottom: 8px;
+    background-color: #F3F4F6;
+}
+
+.advice{
+    margin-bottom: 80.56px;
+}
+h3{
+    font-weight: 700;
+    font-size: 40px;
+    color: #2C1500;
+    max-width: 522px;
+    margin-left: 21px;
+}
+.advice_context{
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 506.69px;
+    color: #2C1500;
+    margin-left: 21px;
+    margin-bottom: 90px;
+}
+
+.left_and_right_side{
+    display: flex;
+    justify-content: space-between;
+}
+
+.visit_shop{
+    background-color: #F3F4F6;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.visit_shop_description{
+    font-weight: 700;
+    font-size: 40px;
+    color: #2C1500;
+    max-width: 585px;
+
+    margin-top: 88px;
+    margin-left: 97px;
+    margin-bottom: 32px;
+}
+.visit_shop_link{
+    margin-left: 97px;
+    margin-bottom: 88px;
+}
+.visit_shop_photo{
+    margin-right: 41px;
+}
+.footer{
+    font-family: 'Work Sans', sans-serif;
+    border-top: 1px solid #156963;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px; 
+}
+.footer_second_column{
+    margin-left: 80px;
+}
+.footer_third_column{
+    margin-left: 83px;
+}
+.footer_fourth_column{
+    margin-left: 80px;
+}
+.footer_1c_1row{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #156963;
+    margin-bottom: 24px;
+}
+.footer_1c_2row{
+    font-weight: 500;
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.footer_1c_3row{
+    font-weight: 400;
+    font-size: 13px;
+    color: #4F4F4F;
+    max-width: 282px;
+}
+.footer_2-4c_1row{
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.footer_2-3c_2-3row{
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 14px;
+}
+.footer_4c_2row{
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+    opacity: 0.5; 
+
+    padding: 8px 87px 8px 13px;
+    border: 1px solid #F2F2F2;
+    border-radius: 2px;
+    margin-bottom: 14px;
+}
+.footer_4c_3row{
+    font-weight: 500;
+    font-size: 8px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+
+    width: 51px;
+    backdrop-filter: blur(5px);
+    border-radius: 2px;
+}
+
